@@ -1,57 +1,91 @@
 
 
 const Data = [
+  {
+    id: '0',
+    zona: 'Sur',
+    name: 'Chilli Hamburguers Sur',
+    platillos: [
+      {id: 1, name: 'Hamburguesas1', value: 100} ,
+      {id: 2, name: 'Tacos1', value: 50},
+      {id: 3, name: 'Burritos1', value: 90} ]
+  },
     {
       id: '1',
       zona: 'Sur',
       name: 'Chilli Hamburguers Sur',
-      platillos: ['Hamburguesa sencilla','Hamburguesa doble','Papa asada','Papa asada con carne','Nugguets','Malteada','Nieve de fresa','Papas fritas','Ensalada','Pan de ajo','Refresco','Agua','Pay de limón']
+      platillos: [
+        {id: 1, name: 'Hamburguesas1', value: 100} ,
+        {id: 2, name: 'Tacos1', value: 50},
+        {id: 3, name: 'Burritos1', value: 90} ]
     },
 
     {
         id: '2',
         zona: 'Sur',
         name: 'Carls Jr Sur',
-        platillos: ['Ensalada de la casa','Hamburguesa ','Doble Western','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+        platillos: [
+          {id: 1, name: 'Hamburguesas2', value: 100} ,
+          {id: 2, name: 'Tacos2', value: 50},
+          {id: 3, name: 'Burritos2', value: 90} ]
+        
       },
     {
       id: '3',
       name: 'Hamburguesas del Norte',
       zona: 'Norte',
-      platillos: ['Hamburguesa de Pollo','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+      platillos: [
+        {id: 1, name: 'Hamburguesas3', value: 100} ,
+        {id: 2, name: 'Tacos3', value: 50},
+        {id: 3, name: 'Burritos3', value: 90} ]
     },
 
     {
         id: '4',
         name: 'Las Alitas',
         zona: 'Norte',
-        platillos: ['Ensalada de Grilled Chicken','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+        platillos: [
+          {id: 1, name: 'Hamburguesas4', value: 100} ,
+          {id: 2, name: 'Tacos4', value: 50},
+          {id: 3, name: 'Burritos4', value: 90} ]
       },
     {
       id: '5',
       name: 'Los Generales Poniente',
       zona: 'Poniente',
-      platillos: ['Enchiladas','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+      platillos: [
+        {id: 1, name: 'Hamburguesas5', value: 100} ,
+        {id: 2, name: 'Tacos5', value: 50},
+        {id: 3, name: 'Burritos5', value: 90} ]
     },
 
     {
         id: '6',
         name: 'Super Salads Oriente',
         zona: 'Oriente',
-        platillos: ['Ensalada Super Salads','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+        platillos: [
+          {id: 1, name: 'Hamburguesas6', value: 100} ,
+          {id: 2, name: 'Tacos6', value: 50},
+          {id: 3, name: 'Burritos6', value: 90} ]
       },
       {
         id: '7',
         name: 'Tacos Lara Oriente',
         zona: 'Oriente',
-        platillos: ['Tacos de trompo','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+        platillos: [
+          {id: 1, name: 'Hamburguesas7', value: 100} ,
+          {id: 2, name: 'Tacos7', value: 50},
+          {id: 3, name: 'Burritos7', value: 90} ]
       },
   
       {
           id: '8',
           name: 'Pasteleria Oriente',
           zona: 'Oriente',
-          platillos: ['Pastel de chocolate','Sugar Snap Peas','Olive Oil','Garlic Clove','Red Chilli','King Prawns','Cherry Tomatoes','Basil Leaves','Lettuce','Bread','Fromage Frais','Lime','Caster Sugar']
+          platillos: [
+            {id: 1, name: 'Hamburguesas8', value: 100} ,
+            {id: 2, name: 'Tacos8', value: 50},
+            {id: 3, name: 'Burritos8', value: 90} ]
         }
 ];
   

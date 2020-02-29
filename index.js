@@ -8,14 +8,17 @@ import Zonas from './Zonas'
 
 
 var SelectPlatillos = [];
+var Total = 0;
 
 const APP = express();
+
 APP.use (bodyParse.urlencoded());
 APP.use(bodyParse.json());
+
 dotenv.config();
 
 const SERVER = http.createServer(APP);
 
-routes(APP,Data,Zonas, SelectPlatillos);
+routes(APP,Data,Zonas, SelectPlatillos, Total);
 
 SERVER.listen (process.env.PORT);
