@@ -1,0 +1,7 @@
+{//archivo que le dice a babel que use presets (es2015 y react)
+    "presets":[
+        [
+        "@babel/preset-env"
+    ]
+]
+}
